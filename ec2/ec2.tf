@@ -7,3 +7,7 @@ resource "aws_spot_instance_request" "sample" {
     Name  = "new"
   }
 }
+
+provider "aws" {
+  region    = "us-east-1"
+}
