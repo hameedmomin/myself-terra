@@ -14,5 +14,5 @@ provider "aws" {
 resource "aws_ec2_tag" "sample" {
   key              = "Name"
   resource_id      = aws_spot_instance_request.sample.id
-  value            = New
+  value            = "New"
 }
